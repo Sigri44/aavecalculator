@@ -25,7 +25,7 @@ export const markets = {
         "LINK": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.7, "liquidationThreshold": 0.75, "chainlinkAddress": "0x86E53CF1B870786351Da77A57575e79CB55812CB"},
         "WBTC": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.7, "liquidationThreshold": 0.75, "chainlinkAddress": "0x6ce185860a4963106506C203335A2910413708e9"},
         "WETH": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.8, "liquidationThreshold": 0.825, "chainlinkAddress": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612"}
-    }
+    },
     "GNOSIS": {
         "xDAI": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.77, "liquidationThreshold": 0.8, "chainlinkAddress": "0xE5269eF0CE04E509E8134624c7BF043b21e10897"},
         "sDAI": {"borrowing": "NO", "collateral": "YES", "loanToValue": 0.77, "liquidationThreshold": 0.8, "chainlinkAddress": "0x1D0f881Ce1a646E2f27Dec3c57Fa056cB838BCC2"},
