@@ -45,6 +45,11 @@ function NetworkTypes({ networkType, setNetworkType }) {
       ) : (
         <button className="border border-white border-b-2 min-w-[25%] hover:bg-black" onClick={() => { setNetworkType('ARBITRUM') }}>Arbitrum V3</button>
       )}
+      {networkType === 'GNOSIS' ? (
+        <button className="border border-white border-b-2 min-w-[25%] bg-black hover:bg-black" onClick={() => { setNetworkType('GNOSIS') }}>Gnosis V3</button>
+      ) : (
+        <button className="border border-white border-b-2 min-w-[25%] hover:bg-black" onClick={() => { setNetworkType('GNOSIS') }}>Gnosis V3</button>
+      )}
     </div>
   )
 }
@@ -56,6 +61,9 @@ function getChainLinkPrice(networkType, address,  setPrice ) {
   }
   else if (networkType === "ARBITRUM") {
     provider = new ethers.providers.JsonRpcProvider("https://arbitrum-mainnet.infura.io/v3/646811ce6d7641bc893009e2b67b27f0")
+  }
+  else if (networkType === "GNOSIS") {
+    provider = new ethers.providers.JsonRpcProvider("https://gnosis-mainnet.infura.io/v3/646811ce6d7641bc893009e2b67b27f0")
   }
   else {
     provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/646811ce6d7641bc893009e2b67b27f0")
