@@ -26,5 +26,15 @@ export const markets = {
         "WBTC": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.7, "liquidationThreshold": 0.75, "chainlinkAddress": "0x6ce185860a4963106506C203335A2910413708e9"},
         "WETH": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.8, "liquidationThreshold": 0.825, "chainlinkAddress": "0x639Fe6ab55C921f74e7fac1ee960C0B6293ba612"}
     }
+    "GNOSIS": {
+        "xDAI": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.77, "liquidationThreshold": 0.8, "chainlinkAddress": "0xE5269eF0CE04E509E8134624c7BF043b21e10897"},
+        "sDAI": {"borrowing": "NO", "collateral": "YES", "loanToValue": 0.77, "liquidationThreshold": 0.8, "chainlinkAddress": "0x1D0f881Ce1a646E2f27Dec3c57Fa056cB838BCC2"},
+        "WXDAI": {"borrowing": "NO", "collateral": "YES", "loanToValue": 0.77, "liquidationThreshold": 0.8, "chainlinkAddress": "0xE5269eF0CE04E509E8134624c7BF043b21e10897"},
+        "wstETH": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.75, "liquidationThreshold": 0.78, "chainlinkAddress": "0x8Ee42Ba520cA106294163fb8b1ffE9C6Fba35507"},
+        "GNO": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.31, "liquidationThreshold": 0.36, "chainlinkAddress": "0x22441d81416430A54336aB28765abd31a792Ad37"},
+        "WETH": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.75, "liquidationThreshold": 0.78, "chainlinkAddress": "0xa767f745331D267c7751297D982b050c93985627"}
+        "USDC": {"borrowing": "YES", "collateral": "YES", "loanToValue": 0.77, "liquidationThreshold": 0.8, "chainlinkAddress": "0x0a2d05bc646C65A029e602c257DfA14adF8BfAd2"}
+        "EURe": {"borrowing": "YES", "collateral": "NO", "chainlinkAddress": "0xab70BCB260073d036d1660201e9d5405F5829b7a"}
+    }
 }
 
