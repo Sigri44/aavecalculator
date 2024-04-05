@@ -63,7 +63,7 @@ function getChainLinkPrice(networkType, address,  setPrice ) {
     provider = new ethers.providers.JsonRpcProvider("https://arbitrum-mainnet.infura.io/v3/646811ce6d7641bc893009e2b67b27f0")
   }
   else if (networkType === "GNOSIS") {
-    provider = new ethers.providers.JsonRpcProvider("https://gnosis-mainnet.infura.io/v3/646811ce6d7641bc893009e2b67b27f0")
+    provider = new ethers.providers.JsonRpcProvider("https://gnosis-rpc.publicnode.com")
   }
   else {
     provider = new ethers.providers.JsonRpcProvider("https://mainnet.infura.io/v3/646811ce6d7641bc893009e2b67b27f0")
