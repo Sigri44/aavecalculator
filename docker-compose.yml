@@ -1,0 +1,17 @@
+version: '3.2'
+
+services:
+  web:
+    container_name: aavecalculator
+    build: .
+    networks:
+      - traefik
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.aavecalculator.rule=Host(`aavecalculator.blockchain.sigri44.com`)"
+      - "traefik.http.services.aavecalculator.loadbalancer.server.port=3000"
+    restart: always
+
+networks:
+  traefik:
+    external: true
